@@ -20,6 +20,25 @@ export function App() {
       <Container>
         <CountDown />
       </Container>
+
+      <Container>
+        <form className="form">
+          <div className="formRow"></div>
+
+          <div className="formRow">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+
+          <div className="formRow">
+            <p>Ciclos</p>
+            <p>0 0 0 0 0 0</p>
+          </div>
+
+          <div className="formRow">
+            <button>Enviar</button>
+          </div>
+        </form>
+      </Container>
     </>
   );
 }
