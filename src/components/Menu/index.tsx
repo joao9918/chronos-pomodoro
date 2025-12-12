@@ -34,7 +34,6 @@ export function Menu() {
   }
 
   useEffect(() => {
-    console.log("", Date.now());
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
   }, [theme]);
